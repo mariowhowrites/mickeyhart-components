@@ -14,6 +14,7 @@ export default {
   output: {
     file: 'my-element.bundled.js',
     format: 'esm',
+    exports: 'named'
   },
   onwarn(warning) {
     if (warning.code !== 'THIS_IS_UNDEFINED') {
