@@ -12,7 +12,7 @@ import replace from '@rollup/plugin-replace';
 export default {
   input: 'my-element.js',
   output: {
-    file: 'my-element.bundled.js',
+    file: 'docs/my-element.bundled.js',
     format: 'esm',
     exports: 'named'
   },
